@@ -1,0 +1,1 @@
+for x in *.ab1; do echo "/Applications/ASAP/ASAP.ins R $x ../0001_clps2.fa; rm -f ${x%%.*}*_result.dnd ${x%%.*}*_result.fasta_report.txt ${x%%.*}*_result.fasta ${x%%.*}*_consensus.fasta ${x%%.*}*.fastq Failed_Report.txt"; done
